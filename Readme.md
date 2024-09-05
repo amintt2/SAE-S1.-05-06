@@ -4,6 +4,7 @@
 ## Sujet
 
 ## Membres du groupe :
+
 Etudiant 1 (réferent du groupe) : [Jibryl Tebib] (jibryl.tebib@edu.univ-fcomte.fr?subject=SAE_1_05_06)
 
 
@@ -13,7 +14,7 @@ Etudiant 2 : [Touzi Tahar Amin](tahar-amin.touzi@edu.univ-fcomte.fr?subject=SAE_
 Etudiant 3 : [Talali Zakaria](mailto:yahia.kherza@edu.univ-fcomte.fr?subject=SAE_1_05_06)
 
 
-Etudiant 4 : [VIRET-JACQUOT Valentin](mailto:valentin.viret-jacquot@edu.univ-fcomte.fr?subject=SAE_1_05_06)
+Etudiant 4 : [](mailto:valentin.viret-jacquot@edu.univ-fcomte.fr?subject=SAE_1_05_06)
 
 # Présentation du projet
 
