@@ -1,7 +1,12 @@
+@font-face {
+  font-family: navfont;
+  src: url(ressources/favicon_io/made_carving_soft/MADECarvingSoftPERSONALUSE-Medium.otf);
+}
+
 header {
-    background-color: #181a1b;
+    background-color: #ffffff;
     color: white;
-    height: 70px;
+    height: 80px;
 }
 
 body {
@@ -12,16 +17,25 @@ body {
 }
 
 body {
-    color: white;
-    font-family: "Freshman"
-    src: url('Freshman.ttf');
+    color: rgb(255, 255, 255);
+    font-family:
+
+
 }
 
-header img {  
+#img1 {  
     float: left;
     margin-left: 10px;
-    margin-top: 10px;
-    width: 150px;
+    margin-top: 5px;
+    width: 120px;
+}
+
+#img2 {  
+    float: left;
+    margin-right: 10px;
+    margin-left: 30px;
+    margin-top: 29px;
+    width: 80px;
 }
 
 header h1 {
@@ -32,16 +46,16 @@ header h1 {
 }
 
 header nav{
-    
-    font-size:xx-large;
+    font-size: 25px;
     float: right;
-    margin-right: 30px;
-    margin-top: 15px;
+    margin-right: 100px;
+    margin-top: 23px;
 }
 
 header nav a {
-    margin: 0 0 0 20px;
-    color: #EBD3F8;
+    margin: 0 0 0 70px;
+    color: #000000;
+    font-family: navfont;
     text-decoration: none;
 }
 
