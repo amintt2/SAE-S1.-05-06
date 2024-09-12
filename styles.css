@@ -1,6 +1,6 @@
 @font-face {
   font-family: navfont;
-  src: url(ressources/favicon_io/made_carving_soft/MADECarvingSoftPERSONALUSE-Medium.otf);
+  src: url(ressources/favicon_io/made_carving_soft/MADECarvingSoftPERSONALUSE-Regular.otf);
 }
 
 header {
@@ -80,6 +80,14 @@ input[type=text], select, textarea {
     cursor: pointer;
   }
   
+  header.sticky {
+    position: fixed;
+    top: 10;
+    width: 100%;
+    z-index: 1000;
+
+  }
+
   /* When moving the mouse over the submit button, add a darker green color */
   input[type=submit]:hover {
     background-color: #45a049;
@@ -92,3 +100,7 @@ input[type=text], select, textarea {
     border-color: white;
     padding: 20px;
   }
+
+.scrollable {
+    height: 200vh;
+}
