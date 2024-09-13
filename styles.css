@@ -42,6 +42,21 @@ header.sticky {
     animation: fadeIn 2s;
 
   }
+
+  nav a::before {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 3px;
+    background-color: black;
+    bottom: -5px;
+    transition: all .5s;
+}
+
+  nav a:hover::before {
+    width: 100%;
+}
+
   
 }
   
@@ -94,15 +109,29 @@ header nav{
     position: relative;
 }
 
+
 header nav a {
     margin: 0 0 0 70px;
     color: white;
+    border-radius: 20%;
     font-family: navfont;
     position: relative;
     text-decoration: none;
 }
 
+header nav a::before {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 3px;
+    background-color: white;
+    bottom: -5px;
+    transition: all .5s;
+}
 
+header nav a:hover::before {
+    width: 100%;
+}
 
 
 input[type=text], select, textarea {
