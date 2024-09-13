@@ -4,8 +4,8 @@
 }
 
 header {
-    background-color: #ffffff;
-    color: white;
+    background-color: transparent;
+    color: rgb(29, 29, 29);
     display: flex;
     position: fixed;
     top : 0;
@@ -21,33 +21,45 @@ header {
 
 header.sticky {
   padding: 0% 0% 0% 0%;
+  background-color: white;
+  color : black;
+  .imageone {
+    content:url(ressources/favicon_io/logozctf-transformed1.png);
+  }
+  .imagetwo {
+    content:url(ressources/favicon_io/ledger.png);
+  }
+
+  nav a {
+    color: black;
+  }
 }
 
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #382039;
+    background-color: #1e1928;
 }
 
 body {
     color: rgb(255, 255, 255);
-    font-family:
+
 
 
 }
 
-#img1 {  
+.imageone {  
     float: left;
     margin-left: 10px;
-    width: 110px;
+    width: 90px;
 }
 
-#img2 {  
+.imagetwo {  
     float: left;
     margin-right: 10px;
     margin-left: 30px;
-    margin-top: 20px;
+    margin-top: 15px;
     width: 70px;
 }
 
@@ -70,7 +82,7 @@ header nav{
 
 header nav a {
     margin: 0 0 0 70px;
-    color: #000000;
+    color: white;
     font-family: navfont;
     position: relative;
     text-decoration: none;
