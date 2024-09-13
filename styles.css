@@ -3,7 +3,13 @@
   src: url(ressources/favicon_io/made_carving_soft/MADECarvingSoftPERSONALUSE-Regular.otf);
 }
 
-header {
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+header{
+    animation : fadeIn 2s;
     background-color: transparent;
     color: rgb(29, 29, 29);
     display: flex;
@@ -30,17 +36,23 @@ header.sticky {
     content:url(ressources/favicon_io/ledger.png);
   }
 
-  nav a {
+  nav a{
     color: black;
-  }
-}
+    
+    animation: fadeIn 2s;
 
+  }
+  
+}
+  
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #1e1928;
-}
+    background-image: url(ressources/favicon_io/walpaper3.png);
+    image-resolution: 1px;
+  }
 
 body {
     color: rgb(255, 255, 255);
@@ -50,12 +62,14 @@ body {
 }
 
 .imageone {  
+  animation : fadeIn 4s;
     float: left;
     margin-left: 10px;
     width: 90px;
 }
 
 .imagetwo {  
+  animation : fadeIn 4s;
     float: left;
     margin-right: 10px;
     margin-left: 30px;
@@ -88,6 +102,9 @@ header nav a {
     text-decoration: none;
 }
 
+
+
+
 input[type=text], select, textarea {
     width: 100%; /* Full width */
     padding: 12px; /* Some padding */ 
@@ -109,13 +126,6 @@ input[type=text], select, textarea {
     cursor: pointer;
   }
   
-  header.sticky {
-    position: fixed;
-    top: 10;
-    width: 100%;
-    z-index: 1000;
-
-  }
 
   /* When moving the mouse over the submit button, add a darker green color */
   input[type=submit]:hover {
