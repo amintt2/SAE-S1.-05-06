@@ -12,7 +12,8 @@
 
 # Présentation du projet
 
-Le projet consiste à créer un site web présentant une analyse économique de l'entreprise Ledger, spécialisée dans les solutions de sécurisation des cryptomonnaies. Ce site comprendra une page d'accueil représentant l'identité de l'entreprise, ainsi que plusieurs pages dédiées à l'historique, aux services et à la situation économique de Ledger.
+Le projet consiste à créer un site web présentant une analyse économique de l'entreprise Ledger, spécialisée dans les solutions de sécurisation des cryptomonnaies. Le projet est composer de Jibryl TEBIB, Tahar Amin TOUZI, Zakaria TALALI et de Constant SUCHET.
+Ce site comprendra une page d'accueil représentant l'identité de l'entreprise, ainsi que plusieurs pages dédiées à l'historique, aux services et à la situation économique de Ledger. 
 
 ## Développement Site Web et Validation des pages
 
