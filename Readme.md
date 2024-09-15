@@ -74,3 +74,7 @@ Ce site comprendra une page d'accueil représentant l'identité de l'entreprise,
 - **Touzi Tahar Amin** : Page économie
 - **Jibryl Tebib** : Page historique
 - **Talali Zakaria** : Page services
+
+Apache License
+Version 2.0, January 2004
+http://www.apache.org/licenses/
