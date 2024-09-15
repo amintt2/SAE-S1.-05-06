@@ -23,6 +23,7 @@ function updateFooterText() {
   var footer = document.getElementById("creator"); // Assuming your footer text has this ID
 
   // Check which page the user is on and change the footer text
+  footer.innerHTML = "Createur de la page : Constant SUCHET";
   if (path.includes("index")) {
     footer.innerHTML = "Createur de la page : Constant SUCHET";
   } else if (path.includes("Innovations")) {
@@ -31,8 +32,6 @@ function updateFooterText() {
     footer.innerHTML = "Createur de la page : Touzi Tahar Amin";
   } else if (path.includes("Evolution")) {
     footer.innerHTML = "Createur de la page : Jibryl Tebib";
-  } else {
-    footer.innerHTML = "Createur de la page : Constant SUCHET";
   }
 }
 
