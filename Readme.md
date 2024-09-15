@@ -24,21 +24,21 @@ Ce site comprendra une page d'accueil représentant l'identité de l'entreprise,
 - [w3c Page Accueil](https://validator.w3.org/nu/?doc=https%3A%2F%2Famintt2.github.io%2FSAE-S1.-05-06%2F)
 - ![Validation W3C Page Accueil](url_de_l_image)
 
-### Page des services
+### Page Innovations
 
 **Auteur : Talali Zakaria**
 
 - [w3c Page Services](https://validator.w3.org/nu/?doc=https%3A%2F%2Famintt2.github.io%2FSAE-S1.-05-06%2Fservices.html)
 - ![Validation W3C Page Services](url_de_l_image)
 
-### Page historique
+### Page Evolution
 
 **Auteur : Jibryl Tebib**
 
 - [w3c Page Histoire](https://validator.w3.org/nu/?doc=https%3A%2F%2Famintt2.github.io%2FSAE-S1.-05-06%2Fhistoire.html)
 - ![Validation W3C Page Histoire](url_de_l_image)
 
-### Page économie
+### Page Finances
 
 **Auteur : Touzi Tahar Amin**
 
@@ -71,9 +71,9 @@ Ce site comprendra une page d'accueil représentant l'identité de l'entreprise,
 ### Développement site
 
 - **Constant Suchet** : Page d'accueil, design du site
-- **Touzi Tahar Amin** : Page économie
-- **Jibryl Tebib** : Page historique
-- **Talali Zakaria** : Page services
+- **Touzi Tahar Amin** : Page Finances
+- **Jibryl Tebib** : Page Evolution
+- **Talali Zakaria** : Page innovations
 
 Apache License
 Version 2.0, January 2004
