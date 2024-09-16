@@ -13,7 +13,10 @@ footer {
   color: white;
   padding: 40px 0;
   font-family: navfont, Arial, sans-serif;
-  animation: fadeIn 2s;
+  /*animation: fadeIn 2s;*/
+  position: relative;
+  bottom: 0;
+  
 }
 
 .footer-content {
@@ -23,6 +26,8 @@ footer {
   max-width: 1200px;
   margin: 0 auto;
 }
+
+
 
 .footer-section {
   flex: 1;
@@ -131,11 +136,12 @@ header.sticky {
   
 body {
     font-family: Arial, sans-serif;
+    position: relative;
     margin: 0;
     padding: 0;
     background-color: #1e1928;
     background-image: url(ressources/Wallpaper/walpaper3.png);
-    image-resolution: 1px;
+    image-resolution: 1px
   }
 
 body {
@@ -234,6 +240,12 @@ input[type=text], select, textarea {
     background-color: #0A0A0A;
     border-color: white;
     padding: 20px;
+  }
+
+  main {
+    position: relative;
+    z-index: 1;
+    background: white;
   }
 
 
