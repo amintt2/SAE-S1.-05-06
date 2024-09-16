@@ -1,6 +1,6 @@
 @font-face {
   font-family: navfont;
-  src: url(ressources/favicon_io/made_carving_soft/MADECarvingSoftPERSONALUSE-Regular.otf);
+  src: url(ressources/font/Montserrat-Regular.ttf);
 }
 
 @keyframes fadeIn {
@@ -104,10 +104,10 @@ header.sticky {
   background-color: white;
   color : black;
   .imageone {
-    content:url(ressources/favicon_io/logozctf-transformed1.png);
+    content:url(ressources/logo/ZCTF/logozctf-black-648x385.png);
   }
   .imagetwo {
-    content:url(ressources/favicon_io/ledger.png);
+    content:url(ressources/logo/ledger/ledger-black.png);
   }
 
   nav a{
@@ -140,8 +140,8 @@ body {
     margin: 0;
     padding: 0;
     background-color: #1e1928;
-    background-image: url(ressources/favicon_io/walpaper3.png);
-    z-index: 1;
+    background-image: url(ressources/Wallpaper/walpaper3.png);
+    image-resolution: 1px
   }
 
 body {
