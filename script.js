@@ -1,5 +1,12 @@
 window.addEventListener('scroll', function() {
   var header = document.querySelector('header');
+  var scrollPosition = window.pageYOffset;
+
+  header.classList.toggle('sticky', scrollPosition > 0);
+});
+
+window.addEventListener('scroll', function() {
+  var header = document.querySelector('header');
   var footer = document.querySelector('footer');
   var scrollPosition = window.pageYOffset;
   var windowHeight = window.innerHeight;
