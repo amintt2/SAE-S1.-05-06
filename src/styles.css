@@ -1,0 +1,251 @@
+@font-face {
+  font-family: navfont;
+  src: url(ressources/font/Montserrat-Regular.ttf);
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+footer {
+  background-color: #0A0A0A;
+  color: white;
+  padding: 40px 0;
+  font-family: navfont, Arial, sans-serif;
+  /*animation: fadeIn 2s;*/
+  position: relative;
+  bottom: 0;
+  
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+
+.footer-section {
+  flex: 1;
+  margin: 10px;
+  min-width: 200px;
+}
+
+.footer-section h2 {
+  color: hsl(283, 95%, 34%);
+  font-size: 1.3em;
+  margin-bottom: 15px;
+}
+
+.footer-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-section ul li a:hover {
+  color: hsl(283, 95%, 34%);
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+  }
+  
+  .footer-section {
+    margin-bottom: 30px;
+  }
+}
+.scrollable {
+  min-height: calc(100vh - 100px);
+  padding-bottom: 100px;
+}
+
+
+header{
+    animation : fadeIn 2s;
+    background-color: transparent;
+    color: rgb(29, 29, 29);
+    display: flex;
+    position: fixed;
+    top : 0;
+    width: 100%;
+    height: 6%;
+    z-index: 1000;
+    padding: 15px 10px;
+    transition: 0.6s;
+    justify-content: space-between;
+    align-items: center ;
+
+}
+
+header.sticky {
+  padding: 0% 0% 0% 0%;
+  background-color: white;
+  color : black;
+  .imageone {
+    content:url(ressources/logo/ZCTF/logozctf-black-648x385.png);
+  }
+  .imagetwo {
+    content:url(ressources/logo/ledger/ledger-black.png);
+  }
+
+  nav a{
+    color: black;
+    
+    animation: fadeIn 2s;
+
+  }
+
+  nav a::before {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 3px;
+    background-color: black;
+    bottom: -5px;
+    transition: all .5s;
+}
+
+  nav a:hover::before {
+    width: 100%;
+}
+
+  
+}
+  
+body {
+    font-family: Arial, sans-serif;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    background-color: #1e1928;
+    background-image: url(ressources/Wallpaper/walpaper3.png);
+    image-resolution: 1px
+  }
+
+body {
+    color: rgb(255, 255, 255);
+
+
+
+}
+
+.imageone {  
+  animation : fadeIn 4s;
+    float: left;
+    margin-left: 10px;
+    width: 90px;
+}
+
+.imagetwo {  
+  animation : fadeIn 4s;
+    float: left;
+    margin-right: 10px;
+    margin-left: 30px;
+    margin-top: 15px;
+    width: 70px;
+}
+
+header h1 {
+    float: left;
+    margin-left: 10px;
+    font-size: 35px;
+    margin-top: 13px;
+}
+
+header nav{
+    font-size: 20px;
+    float: right;
+    margin-right: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+header nav a {
+    margin: 0 0 0 70px;
+    color: white;
+    border-radius: 20%;
+    font-family: navfont;
+    position: relative;
+    text-decoration: none;
+}
+
+header nav a::before {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 3px;
+    background-color: white;
+    bottom: -5px;
+    transition: all .5s;
+}
+
+header nav a:hover::before {
+    width: 100%;
+}
+
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box;
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: #ccc;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+
+
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+  .container {
+    border-radius: 10px;
+    background-color: #0A0A0A;
+    border-color: white;
+    padding: 20px;
+  }
+
+  main {
+    position: relative;
+    z-index: 1;
+    background: white;
+  }
+
+
