@@ -21,3 +21,4 @@ window.addEventListener('scroll', function() {
     footer.classList.remove('visible');
   }
 });
+
