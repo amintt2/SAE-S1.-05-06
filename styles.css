@@ -135,6 +135,7 @@ header.sticky {
 }
   
 body {
+    padding-top: 80px;
     font-family: Arial, sans-serif;
     position: relative;
     margin: 0;
@@ -248,4 +249,14 @@ input[type=text], select, textarea {
     background: white;
   }
 
+  main, .scrollable {
+    z-index: 1;
+    position: relative;
+  }
+
+  .hero-section {
+    min-height: calc(100vh - 80px); /* Subtract header height */
+    padding-top: 180px; /* Add padding equal to header height */
+    box-sizing: border-box;
+} 
 
