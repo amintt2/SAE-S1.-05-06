@@ -16,7 +16,7 @@ footer {
   /*animation: fadeIn 2s;*/
   position: relative;
   bottom: 0;
-  
+  margin-top: 100px;
 }
 
 .footer-content {
