@@ -7,6 +7,10 @@ body {
     padding: 0;
 }
 
+.content-wrapper {
+    padding-top: 100px;
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
