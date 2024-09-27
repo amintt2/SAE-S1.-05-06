@@ -39,7 +39,71 @@
         </nav>
     </header>
 
-    <div class="scrollable"></div>
+  
+
+
+    <section class="finance-details">
+      <h2>Performances Financières</h2>
+      <p>Ledger a réalisé un chiffre d'affaires de X millions d'euros en 2023, en hausse de Y% par rapport à l'année précédente.</p>
+      <p>Les bénéfices nets s'élèvent à Z millions d'euros, reflétant une croissance stable malgré les défis du marché des crypto-monnaies.</p>
+  </section>
+
+  <section class="finance-details bg-gray-800 p-8 rounded-lg shadow-lg">
+    <h2 class="text-2xl font-bold mb-4 text-white">Performances Financières</h2>
+    <p class="text-lg text-white">Ledger a réalisé un chiffre d'affaires de X millions d'euros en 2023...</p>
+ </section>
+
+ <div class="graph-container bg-white p-4 rounded-lg">
+  <canvas id="myChart" width="400" height="200"></canvas>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+ var ctx = document.getElementById('myChart').getContext('2d');
+ var myChart = new Chart(ctx, {
+     type: 'bar',
+     data: {
+         labels: ['2019', '2020', '2021', '2022', '2023'],
+         datasets: [{
+             label: 'Chiffre d\'affaires (millions d\'euros)',
+             data: [100, 200, 300, 400, 500],
+             backgroundColor: 'rgba(75, 192, 192, 0.2)', // Couleur des barres
+             borderColor: 'rgba(75, 192, 192, 1)', // Bordure des barres
+             borderWidth: 1
+         }]
+     },
+     options: {
+         scales: {
+             x: {
+                 ticks: {
+                     color: 'black' // Couleur des labels de l'axe X (noir)
+                 },
+                 grid: {
+                     color: 'rgba(0, 0, 0, 0.1)' // Grille noire semi-transparente
+                 }
+             },
+             y: {
+                 ticks: {
+                     color: 'black' // Couleur des labels de l'axe Y (noir)
+                 },
+                 grid: {
+                     color: 'rgba(0, 0, 0, 0.1)' // Grille noire semi-transparente
+                 }
+             }
+         },
+         plugins: {
+             legend: {
+                 labels: {
+                     color: 'black' // Couleur de la légende (noir)
+                 }
+             }
+         }
+     }
+ });
+</script>
+
+
+<div class="scrollable"></div>
 </body>
 
 <div>
@@ -73,10 +137,3 @@
     </footer>
 
 </html>
-
-
-
-
-
-
-
