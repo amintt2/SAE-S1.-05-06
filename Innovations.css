@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+#slideshow {
+    position: relative;
+    height: 540px;
+    background-color: #333;
+}
+
+.slideshow-image {
+    width: 100%;
+    height: 100%;
+    background-image: url('https://www.garvthakur.com/DefaultImages/preview.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.slideshow-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+#central-section {
+    padding: 50px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+#content-sections {
+    padding: 20px 0;
+}
+
+.content-section {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.content-section2 {
+    display: flex;
+    align-items: center;
+    padding: 20px; 
+    flex-direction: row-reverse;
+}
+
+.content-section img {
+    width: 50%;
+    height: auto;
+    margin-right: 20px;
+}
+
+.content-section2 img {
+    width: 50%;
+    height: auto;
+    margin-left: 20px;
+}
+
+.text-section {
+    max-width: 600px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 20px;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px;
+}
