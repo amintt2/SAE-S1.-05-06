@@ -1,1 +1,5 @@
-module.exports = {   content: ['./src/**/*.{html,js}'],   theme: {}, };
+module.exports = {
+    future: {
+        hoverOnlyWhenSupported: true
+    },
+}

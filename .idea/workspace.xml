@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7f2d58bb-5aa3-4fd2-ae51-8ca9fc4054a8" name="Changes" comment="amogus">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/v2/Evolution.html" beforeDir="false" afterPath="$PROJECT_DIR$/v2/Evolution.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/v2/Finances.html" beforeDir="false" afterPath="$PROJECT_DIR$/v2/Finances.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/v2/Innovations.html" beforeDir="false" afterPath="$PROJECT_DIR$/v2/Innovations.html" afterDir="false" />
@@ -91,7 +92,7 @@
       <updated>1727671197814</updated>
       <workItem from="1727671199392" duration="459000" />
       <workItem from="1727671667038" duration="347000" />
-      <workItem from="1727672023779" duration="9729000" />
+      <workItem from="1727672023779" duration="11466000" />
     </task>
     <task id="LOCAL-00001" summary="Setup &amp; Starting v2.0 navbar">
       <option name="closed" value="true" />
