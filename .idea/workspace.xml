@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f2d58bb-5aa3-4fd2-ae51-8ca9fc4054a8" name="Changes" comment="configured html spaces to make modifying easier for page creators">
-      <change beforePath="$PROJECT_DIR$/v2/Evolution.html" beforeDir="false" afterPath="$PROJECT_DIR$/v2/Evolution.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v2/Finances.html" beforeDir="false" afterPath="$PROJECT_DIR$/v2/Finances.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v2/Innovations.html" beforeDir="false" afterPath="$PROJECT_DIR$/v2/Innovations.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/v2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Questionnaires/Questionnaire 1 FEEDBACK.odt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Questionnaires/Questionnaire 1.odt" beforeDir="false" afterPath="$PROJECT_DIR$/Questionnaires/Questionnaire 1.odt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +24,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -55,7 +60,7 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "v2",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/const/Music/SAE-S1.-05-06/v2",
     "list.type.of.created.stylesheet": "CSS",
@@ -73,6 +78,9 @@
       <recent name="C:\Users\const\Music\SAE-S1.-05-06\v2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\const\Music\SAE-S1.-05-06\Questionnaires" />
+      <recent name="C:\Users\const\Music\SAE-S1.-05-06" />
+      <recent name="C:\Users\const\Music\SAE-S1.-05-06\docs" />
       <recent name="C:\Users\const\Music\SAE-S1.-05-06\v2\ressources\logos" />
     </key>
   </component>
@@ -93,7 +101,7 @@
       <updated>1727671197814</updated>
       <workItem from="1727671199392" duration="459000" />
       <workItem from="1727671667038" duration="347000" />
-      <workItem from="1727672023779" duration="14713000" />
+      <workItem from="1727672023779" duration="18142000" />
     </task>
     <task id="LOCAL-00001" summary="Setup &amp; Starting v2.0 navbar">
       <option name="closed" value="true" />
@@ -191,7 +199,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727727564651</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="configured html spaces to make modifying easier for page creators">
+      <option name="closed" value="true" />
+      <created>1727727857863</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1727727857863</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
