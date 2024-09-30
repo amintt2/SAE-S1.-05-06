@@ -1,141 +1,159 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="styles.css">
-    <title>Finances</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script src=script.js></script>
-    <link rel="stylesheet" href="Finances.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="apple-touch-icon" sizes="57x57" href="ressources/favicon/faviconZCTJ/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="ressources/favicon/faviconZCTJ/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="ressources/favicon/faviconZCTJ/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="ressources/favicon/faviconZCTJ/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="ressources/favicon/faviconZCTJ/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="ressources/favicon/faviconZCTJ/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="ressources/favicon/faviconZCTJ/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="ressources/favicon/faviconZCTJ/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="ressources/favicon/faviconZCTJ/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="ressources/favicon/faviconZCTJ/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="ressources/favicon/faviconZCTJ/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="ressources/favicon/faviconZCTJ/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="ressources/favicon/faviconZCTJ/favicon-16x16.png">
-    <link rel="manifest" href="ressources/favicon/faviconZCTJ/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="ZCTJ">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css" rel="stylesheet" />
+  <title>Présentation du Site</title>
+
 </head>
-<div>
-<body data-barba="wrapper">
-    <header>
-        <div id="titre" class="titre">
-            <img src="ressources/logo/ZCTF/logozctf-white-1296x770.png" id="imageone" class="imageone" alt="logo">
-            <img src="ressources/logo/ledger/logo-white.png" id="imagetwo" class="imagetwo" alt="logo">
-        </div>
-        <nav>
-            <a class="eee"  href="index.html">Accueil</a>
-            <a class="eee" href="Innovations.html">Innovations</a>
-            <a class="eee" href="Finances.html">Finances</a>
-            <a class="eee" href="Evolution.html">Evolution</a>
-        </nav>
-    </header>
-</div>
-  
 
-<div class="content-wrapper">
-    <section class="finance-details">
-      <h2>Performances Financières</h2>
-      <p>Ledger a réalisé un chiffre d'affaires de X millions d'euros en 2023, en hausse de Y% par rapport à l'année précédente.</p>
-      <p>Les bénéfices nets s'élèvent à Z millions d'euros, reflétant une croissance stable malgré les défis du marché des crypto-monnaies.</p>
-  </section>
+<script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
 
-  <section class="finance-details bg-gray-800 p-8 rounded-lg shadow-lg">
-    <h2 class="text-2xl font-bold mb-4 text-white">Performances Financières</h2>
-    <p class="text-lg text-white">Ledger a réalisé un chiffre d'affaires de X millions d'euros en 2023...</p>
- </section>
-
- <div class="graph-container bg-white p-4 rounded-lg">
-  <canvas id="myChart" width="400" height="200"></canvas>
-</div>
-
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script>
- var ctx = document.getElementById('myChart').getContext('2d');
- var myChart = new Chart(ctx, {
-     type: 'bar',
-     data: {
-         labels: ['2019', '2020', '2021', '2022', '2023'],
-         datasets: [{
-             label: 'Chiffre d\'affaires (millions d\'euros)',
-             data: [100, 200, 300, 400, 500],
-             backgroundColor: 'rgba(75, 192, 192, 0.2)', // Couleur des barres
-             borderColor: 'rgba(75, 192, 192, 1)', // Bordure des barres
-             borderWidth: 1
-         }]
-     },
-     options: {
-         scales: {
-             x: {
-                 ticks: {
-                     color: 'black' // Couleur des labels de l'axe X (noir)
-                 },
-                 grid: {
-                     color: 'rgba(0, 0, 0, 0.1)' // Grille noire semi-transparente
-                 }
-             },
-             y: {
-                 ticks: {
-                     color: 'black' // Couleur des labels de l'axe Y (noir)
-                 },
-                 grid: {
-                     color: 'rgba(0, 0, 0, 0.1)' // Grille noire semi-transparente
-                 }
-             }
-         },
-         plugins: {
-             legend: {
-                 labels: {
-                     color: 'black' // Couleur de la légende (noir)
-                 }
-             }
-         }
-     }
- });
-</script>
+<body>
 
 
-<div class="scrollable"></div>
-</div>
-</body>
 
-<div>
-
+<nav class="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
+  <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 select-none">
+    <a class="flex items-center space-x-3 rtl:space-x-reverse md:hover:scale-105">
+      <img src="ressources/logos/main_logo_nobg.png" class="h-14 w-14" alt="Website Logo">
+      <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Presentation Ledger</span>
+    </a>
+    <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+      <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-sticky" aria-expanded="false">
+        <span class="sr-only">Open main menu</span>
+        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+        </svg>
+      </button>
     </div>
-    
-    <footer>
-      <div class="footer-content">
-        <div class="footer-section about">
-          <h2>Informations</h2>
-          <p>ZCTJ Analyse propose des analyses et des présentations développés sur de nombreuses entreprises francaises liés au monde du numérique</p>
-        </div>
-        <div class="footer-section links">
-          <h2>Navigation</h2>
-          <ul>
-            <li><a href="index.html">Acceuil</a></li>
-            <li><a href="Innovations.html">Innovations</a></li>
-            <li><a href="Finances.html">Finances</a></li>
-            <li><a href="Evolution.html">Evolution</a></li>
-          </ul>
-        </div>
-        <div class="footer-section contact">
-          <h2>Contacts</h2>
-          <p>Email: media@ledger.com</p>
-          <p>Support : <a href="https://support.ledger.com/">Ledger Support</a></p>
-        </div>
-      </div>
-      <div class="footer-bottom">
-        <p>Createur de la page : Touzi Tahar - 2021</p>
-      </div>
-    </footer>
+    <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+      <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+        <li class="relative group">
+          <a href="index.html" class="block lg:text-xl xl:text-2xl py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#3092C9] md:p-0 md:dark:hover:text-[#3092C9] dark:text-white dark:hover:bg-gray-700 hover:scale-[1.02] md:hover:scale-[1.08] dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Acceuil</a>
+          <span class="absolute -bottom-1 right-0 w-0 h-0.5 bg-blue-400 rounded-lg md:group-hover:w-full group-hover:transition-all"></span>
+        </li>
+        <li class="relative group">
+          <a href="Innovations.html" class="block lg:text-xl xl:text-2xl py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#3092C9] md:p-0 md:dark:hover:text-[#3092C9] dark:text-white dark:hover:bg-gray-700 hover:scale-[1.02] md:hover:scale-[1.08]dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Innovations</a>
+          <span class="absolute -bottom-1 right-0 w-0 h-0.5 bg-blue-400 rounded-lg md:group-hover:w-full group-hover:transition-all"></span>
+        </li>
+        <li class="">
+          <a class="block lg:text-xl xl:text-2xl py-2 px-3 text-white bg-[#3092C9] rounded md:bg-transparent md:text-[#3092C9] md:p-0 scale-[1.02] md:dark:text-[#3092C9] " aria-current="page">Finances</a>
+          <span class="absolute -bottom-1 right-0 w-0 h-0.5 bg-blue-400 rounded-lg md:group-hover:w-full group-hover:transition-all"></span>
+        </li>
+        <li class="relative group">
+          <a href="Evolution.html" class="block lg:text-xl xl:text-2xl py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#3092C9] md:p-0 md:dark:hover:text-[#3092C9] dark:text-white dark:hover:bg-gray-700 hover:scale-[1.02] md:hover:scale-[1.08] dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Evolution</a>
+          <span class="absolute -bottom-1 right-0 w-0 h-0.5 bg-blue-400 rounded-lg md:group-hover:w-full group-hover:transition-all"></span>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
+
+
+
+<!-- Contenu de la page ( MODIFIER ICI ) -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--Template body-->
+
+<div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+  <div>
+    <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg" alt="">
+  </div>
+  <div>
+    <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg" alt="">
+  </div>
+  <div>
+    <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-2.jpg" alt="">
+  </div>
+  <div>
+    <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-3.jpg" alt="">
+  </div>
+  <div>
+    <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-4.jpg" alt="">
+  </div>
+  <div>
+    <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-5.jpg" alt="">
+  </div>
+  <div>
+    <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-6.jpg" alt="">
+  </div>
+  <div>
+    <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-7.jpg" alt="">
+  </div>
+  <div>
+    <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-8.jpg" alt="">
+  </div>
+  <div>
+    <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-9.jpg" alt="">
+  </div>
+  <div>
+    <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-10.jpg" alt="">
+  </div>
+  <div>
+    <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-11.jpg" alt="">
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- / Contenu de la page -->
+
+<!-- Création du footer des pages webs -->
+
+
+<footer class="bg-white shadow dark:bg-gray-900">
+  <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8 select-none">
+    <div class="flex items-center justify-center">
+      <ul class="flex items-center text-sm font-medium text-gray-500 dark:text-gray-400">
+        <li>
+          <a href="index.html" class="hover:underline me-4 md:me-6">Acceuil</a>
+        </li>
+        <li>
+          <a href="Innovations.html" class="hover:underline me-4 md:me-6">Innovations</a>
+        </li>
+        <li>
+          <a href="Finances.html" class="hover:underline me-4 md:me-6">Finances</a>
+        </li>
+        <li>
+          <a href="Evolution.html" class="hover:underline">Evolution</a>
+        </li>
+      </ul>
+    </div>
+    <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+    <span class="block text-sm text-gray-500 text-center dark:text-gray-400"><a>Createur de la page :  </a><a class="text-white">Touzi Tahar</a></span>
+  </div>
+</footer>
+
+</body>
 </html>

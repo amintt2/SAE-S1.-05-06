@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f2d58bb-5aa3-4fd2-ae51-8ca9fc4054a8" name="Changes" comment="finished footer with page creator name, centered titles, removed logo bc repetition of the sticky navbar, testing rounded nav/footer">
+    <list default="true" id="7f2d58bb-5aa3-4fd2-ae51-8ca9fc4054a8" name="Changes" comment="configured html spaces to make modifying easier for page creators">
+      <change beforePath="$PROJECT_DIR$/v2/Evolution.html" beforeDir="false" afterPath="$PROJECT_DIR$/v2/Evolution.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v2/Finances.html" beforeDir="false" afterPath="$PROJECT_DIR$/v2/Finances.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v2/Innovations.html" beforeDir="false" afterPath="$PROJECT_DIR$/v2/Innovations.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/v2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/v2/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,7 +93,7 @@
       <updated>1727671197814</updated>
       <workItem from="1727671199392" duration="459000" />
       <workItem from="1727671667038" duration="347000" />
-      <workItem from="1727672023779" duration="14383000" />
+      <workItem from="1727672023779" duration="14713000" />
     </task>
     <task id="LOCAL-00001" summary="Setup &amp; Starting v2.0 navbar">
       <option name="closed" value="true" />
@@ -172,7 +175,23 @@
       <option name="project" value="LOCAL" />
       <updated>1727726985781</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Added template content, footer finished, removed flow links, added commentary">
+      <option name="closed" value="true" />
+      <created>1727727395845</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1727727395845</updated>
+    </task>
+    <task id="LOCAL-00012" summary="configured html spaces to make modifying easier for page creators">
+      <option name="closed" value="true" />
+      <created>1727727564651</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1727727564651</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,6 +208,8 @@
     <MESSAGE value="removed flowbite urls &amp; fixed hover effect on logo for 3 pages" />
     <MESSAGE value="responsive nav-content size" />
     <MESSAGE value="finished footer with page creator name, centered titles, removed logo bc repetition of the sticky navbar, testing rounded nav/footer" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished footer with page creator name, centered titles, removed logo bc repetition of the sticky navbar, testing rounded nav/footer" />
+    <MESSAGE value="Added template content, footer finished, removed flow links, added commentary" />
+    <MESSAGE value="configured html spaces to make modifying easier for page creators" />
+    <option name="LAST_COMMIT_MESSAGE" value="configured html spaces to make modifying easier for page creators" />
   </component>
 </project>
