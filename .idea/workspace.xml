@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f2d58bb-5aa3-4fd2-ae51-8ca9fc4054a8" name="Changes" comment="amogus" />
+    <list default="true" id="7f2d58bb-5aa3-4fd2-ae51-8ca9fc4054a8" name="Changes" comment="maybe fixed http link warnings" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,6 +33,9 @@
     &quot;accountId&quot;: &quot;5b609ab8-93a0-4dcf-8939-e72425a908ef&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 4
@@ -85,7 +88,7 @@
       <updated>1727671197814</updated>
       <workItem from="1727671199392" duration="459000" />
       <workItem from="1727671667038" duration="347000" />
-      <workItem from="1727672023779" duration="11786000" />
+      <workItem from="1727672023779" duration="12168000" />
     </task>
     <task id="LOCAL-00001" summary="Setup &amp; Starting v2.0 navbar">
       <option name="closed" value="true" />
@@ -111,7 +114,31 @@
       <option name="project" value="LOCAL" />
       <updated>1727717196929</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="renamed acceuil by index for the sae norms">
+      <option name="closed" value="true" />
+      <created>1727724722603</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1727724722603</updated>
+    </task>
+    <task id="LOCAL-00005" summary="fixed styles warning">
+      <option name="closed" value="true" />
+      <created>1727724775724</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1727724775724</updated>
+    </task>
+    <task id="LOCAL-00006" summary="maybe fixed http link warnings">
+      <option name="closed" value="true" />
+      <created>1727724950571</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1727724950571</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,6 +148,9 @@
     <MESSAGE value="Setup &amp; Starting v2.0 navbar" />
     <MESSAGE value="centered span with logo (first section in navbar)" />
     <MESSAGE value="amogus" />
-    <option name="LAST_COMMIT_MESSAGE" value="amogus" />
+    <MESSAGE value="renamed acceuil by index for the sae norms" />
+    <MESSAGE value="fixed styles warning" />
+    <MESSAGE value="maybe fixed http link warnings" />
+    <option name="LAST_COMMIT_MESSAGE" value="maybe fixed http link warnings" />
   </component>
 </project>
