@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f2d58bb-5aa3-4fd2-ae51-8ca9fc4054a8" name="Changes" comment="maybe fixed http link warnings" />
+    <list default="true" id="7f2d58bb-5aa3-4fd2-ae51-8ca9fc4054a8" name="Changes" comment="removed flowbite urls &amp; fixed hover effect on logo for 3 pages">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v2/Evolution.html" beforeDir="false" afterPath="$PROJECT_DIR$/v2/Evolution.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/v2/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -88,7 +92,7 @@
       <updated>1727671197814</updated>
       <workItem from="1727671199392" duration="459000" />
       <workItem from="1727671667038" duration="347000" />
-      <workItem from="1727672023779" duration="12168000" />
+      <workItem from="1727672023779" duration="12963000" />
     </task>
     <task id="LOCAL-00001" summary="Setup &amp; Starting v2.0 navbar">
       <option name="closed" value="true" />
@@ -138,7 +142,23 @@
       <option name="project" value="LOCAL" />
       <updated>1727724950571</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="no select on navbar">
+      <option name="closed" value="true" />
+      <created>1727725301181</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1727725301181</updated>
+    </task>
+    <task id="LOCAL-00008" summary="removed flowbite urls &amp; fixed hover effect on logo for 3 pages">
+      <option name="closed" value="true" />
+      <created>1727725452246</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1727725452246</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,6 +171,8 @@
     <MESSAGE value="renamed acceuil by index for the sae norms" />
     <MESSAGE value="fixed styles warning" />
     <MESSAGE value="maybe fixed http link warnings" />
-    <option name="LAST_COMMIT_MESSAGE" value="maybe fixed http link warnings" />
+    <MESSAGE value="no select on navbar" />
+    <MESSAGE value="removed flowbite urls &amp; fixed hover effect on logo for 3 pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed flowbite urls &amp; fixed hover effect on logo for 3 pages" />
   </component>
 </project>
