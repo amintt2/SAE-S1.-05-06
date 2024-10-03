@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f2d58bb-5aa3-4fd2-ae51-8ca9fc4054a8" name="Changes" comment="configured html spaces to make modifying easier for page creators">
-      <change afterPath="$PROJECT_DIR$/Questionnaires/Questionnaire 1 FEEDBACK.odt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index_button.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Questionnaires/Questionnaire 1.odt" beforeDir="false" afterPath="$PROJECT_DIR$/Questionnaires/Questionnaire 1.odt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +61,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "v2",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/const/Music/SAE-S1.-05-06/v2",
+    "last_opened_file_path": "/Users/constantsuchet/Documents/IUT/SAES/SAE-S1.-05-06",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -75,6 +74,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="C:\Users\const\Music\SAE-S1.-05-06\v2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -87,7 +87,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-WS-242.23339.15" />
+        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-WS-242.21829.149" />
       </set>
     </attachedChunks>
   </component>
@@ -102,6 +102,7 @@
       <workItem from="1727671199392" duration="459000" />
       <workItem from="1727671667038" duration="347000" />
       <workItem from="1727672023779" duration="18142000" />
+      <workItem from="1727955969624" duration="4632000" />
     </task>
     <task id="LOCAL-00001" summary="Setup &amp; Starting v2.0 navbar">
       <option name="closed" value="true" />
