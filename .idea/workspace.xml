@@ -4,11 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f2d58bb-5aa3-4fd2-ae51-8ca9fc4054a8" name="Changes" comment="hover effects test">
+    <list default="true" id="7f2d58bb-5aa3-4fd2-ae51-8ca9fc4054a8" name="Changes" comment="fixed phone compatibility problems on acceuil and put the carousel behind the text as well as logo fixes">
+      <change afterPath="$PROJECT_DIR$/styles/Acceuil.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/Evolution.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/Finances.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/Innovations.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Evolution.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Evolution.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Finances.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Finances.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Innovations.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Innovations.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ressources/exemplehover.html" beforeDir="false" afterPath="$PROJECT_DIR$/ressources/exemplehover.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ressources/logos/main_logo_nobg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index_button.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index_button.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,10 +85,11 @@
       <recent name="C:\Users\const\Music\SAE-S1.-05-06\v2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pages" />
+      <recent name="$PROJECT_DIR$/ressources/logos" />
       <recent name="C:\Users\const\Music\SAE-S1.-05-06\Questionnaires" />
       <recent name="C:\Users\const\Music\SAE-S1.-05-06" />
       <recent name="C:\Users\const\Music\SAE-S1.-05-06\docs" />
-      <recent name="C:\Users\const\Music\SAE-S1.-05-06\v2\ressources\logos" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -104,7 +111,7 @@
       <workItem from="1727671667038" duration="347000" />
       <workItem from="1727672023779" duration="18142000" />
       <workItem from="1727955969624" duration="13095000" />
-      <workItem from="1728210691093" duration="420000" />
+      <workItem from="1728210691093" duration="1969000" />
     </task>
     <task id="LOCAL-00001" summary="Setup &amp; Starting v2.0 navbar">
       <option name="closed" value="true" />
@@ -218,7 +225,23 @@
       <option name="project" value="LOCAL" />
       <updated>1727965165852</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="hover effects test">
+      <option name="closed" value="true" />
+      <created>1728211128980</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1728211128980</updated>
+    </task>
+    <task id="LOCAL-00016" summary="fixed phone compatibility problems on acceuil and put the carousel behind the text as well as logo fixes">
+      <option name="closed" value="true" />
+      <created>1728211442928</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1728211442928</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,6 +261,7 @@
     <MESSAGE value="Added template content, footer finished, removed flow links, added commentary" />
     <MESSAGE value="configured html spaces to make modifying easier for page creators" />
     <MESSAGE value="hover effects test" />
-    <option name="LAST_COMMIT_MESSAGE" value="hover effects test" />
+    <MESSAGE value="fixed phone compatibility problems on acceuil and put the carousel behind the text as well as logo fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed phone compatibility problems on acceuil and put the carousel behind the text as well as logo fixes" />
   </component>
 </project>
