@@ -47,20 +47,21 @@
 <body class="bg-gray-100">
 <nav class="bg-white shadow-md">
     <div class="container mx-auto px-6 py-3">
-        <div class="flex items-center justify-between">
-            <div class="text-xl font-semibold text-gray-700">Logo</div>
+        <div class="flex items-center justify-center">
+
             <div class="flex space-x-4">
-                <a href="#" class="nav-item relative px-4 py-2 text-gray-600 hover:text-blue-500 transition duration-300">
-                    Home
+                <a href="#" class="relative px-1 nav-item
+                py-2 text-black hover:text-blue-500 font-semibold  transition duration-300">
+                    Acceuil
                 </a>
-                <a href="#" class="nav-item relative px-4 py-2 text-gray-600 hover:text-blue-500 transition duration-300">
-                    Products
+                <a href="#" class="nav-item relative px-1 font-semibold py-2 text-black hover:text-blue-500 transition duration-300">
+                    Innovations
                 </a>
-                <a href="#" class="nav-item relative px-4 py-2 text-gray-600 hover:text-blue-500 transition duration-300">
-                    About
+                <a href="#" class="nav-item relative font-semibold px-1 py-2 text-black hover:text-blue-500 transition duration-300">
+                    Finances
                 </a>
-                <a href="#" class="nav-item relative px-4 py-2 text-gray-600 hover:text-blue-500 transition duration-300">
-                    Contact
+                <a href="#" class="nav-item relative font-semibold px-1 py-2 text-black hover:text-blue-500 transition duration-300">
+                    Evolution
                 </a>
             </div>
         </div>
@@ -68,3 +69,37 @@
 </nav>
 </body>
 </html>
+
+<script>
+    document.querySelectorAll('.nav-item').forEach(item => {
+        item.innerHTML = item.textContent.split('').map(letter =>
+            `<span class="letter">${letter}</span>`
+        ).join('');
+
+        item.addEventListener('mousemove', (e) => {
+            const rect = item.getBoundingClientRect();
+            const x = e.clientX - rect.left; // x position within the element
+
+            item.querySelectorAll('.letter').forEach((letter, index) => {
+                const letterRect = letter.getBoundingClientRect();
+                const letterX = letterRect.left - rect.left + letterRect.width / 2;
+                const distanceFromCursor = Math.abs(x - letterX);
+                const maxDistance = 100; // maximum distance for the effect
+                const maxYOffset = 10; // maximum Y offset in pixels
+
+                if (distanceFromCursor < maxDistance) {
+                    const yOffset = Math.sin((distanceFromCursor / maxDistance) * Math.PI) * maxYOffset;
+                    letter.style.transform = `translateY(${-yOffset}px)`;
+                } else {
+                    letter.style.transform = 'translateY(0)';
+                }
+            });
+        });
+
+        item.addEventListener('mouseleave', () => {
+            item.querySelectorAll('.letter').forEach(letter => {
+                letter.style.transform = 'translateY(0)';
+            });
+        });
+    });
+</script>
