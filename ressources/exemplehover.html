@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Navbar</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @keyframes drawBorder {
+            0% {
+                width: 0;
+                height: 0;
+                border-top-color: #3b82f6;
+                border-right-color: transparent;
+                border-bottom-color: transparent;
+                border-left-color: transparent;
+            }
+            50% {
+                width: 100%;
+                height: 0;
+                border-top-color: #3b82f6;
+                border-right-color: #3b82f6;
+                border-bottom-color: transparent;
+                border-left-color: transparent;
+            }
+            100% {
+                width: 100%;
+                height: 100%;
+                border-top-color: #3b82f6;
+                border-right-color: #3b82f6;
+                border-bottom-color: #3b82f6;
+                border-left-color: #3b82f6;
+            }
+        }
+        .nav-item:hover::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 2px solid transparent;
+            animation: drawBorder 0.3s linear forwards;
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+<nav class="bg-white shadow-md">
+    <div class="container mx-auto px-6 py-3">
+        <div class="flex items-center justify-center">
+
+            <div class="flex space-x-4">
+                <a href="#" class="relative px-1 nav-item
+                py-2 text-black hover:text-blue-500 font-semibold  transition duration-300">
+                    Acceuil
+                </a>
+                <a href="#" class="nav-item relative px-1 font-semibold py-2 text-black hover:text-blue-500 transition duration-300">
+                    Innovations
+                </a>
+                <a href="#" class="nav-item relative font-semibold px-1 py-2 text-black hover:text-blue-500 transition duration-300">
+                    Finances
+                </a>
+                <a href="#" class="nav-item relative font-semibold px-1 py-2 text-black hover:text-blue-500 transition duration-300">
+                    Evolution
+                </a>
+            </div>
+        </div>
+    </div>
+</nav>
+</body>
+</html>
+
+<script>
+    document.querySelectorAll('.nav-item').forEach(item => {
+        item.innerHTML = item.textContent.split('').map(letter =>
+            `<span class="letter">${letter}</span>`
+        ).join('');
+
+        item.addEventListener('mousemove', (e) => {
+            const rect = item.getBoundingClientRect();
+            const x = e.clientX - rect.left; // x position within the element
+
+            item.querySelectorAll('.letter').forEach((letter, index) => {
+                const letterRect = letter.getBoundingClientRect();
+                const letterX = letterRect.left - rect.left + letterRect.width / 2;
+                const distanceFromCursor = Math.abs(x - letterX);
+                const maxDistance = 100; // maximum distance for the effect
+                const maxYOffset = 10; // maximum Y offset in pixels
+
+                if (distanceFromCursor < maxDistance) {
+                    const yOffset = Math.sin((distanceFromCursor / maxDistance) * Math.PI) * maxYOffset;
+                    letter.style.transform = `translateY(${-yOffset}px)`;
+                } else {
+                    letter.style.transform = 'translateY(0)';
+                }
+            });
+        });
+
+        item.addEventListener('mouseleave', () => {
+            item.querySelectorAll('.letter').forEach(letter => {
+                letter.style.transform = 'translateY(0)';
+            });
+        });
+    });
+</script>
