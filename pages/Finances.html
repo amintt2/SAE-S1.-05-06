@@ -4,14 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://cdn.tailwindcss.com"></script>
-  <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css" rel="stylesheet" />
   <link rel="stylesheet" href="../styles/Finances.css">
   <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
   <title>Présentation du Site</title>
 
 </head>
-
-<script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
 
 <body class="bg-white dark:bg-slate-900 ">
 
@@ -268,30 +265,17 @@ const options = {
         </li>
       </ul>
     </div>
-    <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-    
-    
+    <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8">
     <div class="flex items-center gap-4 justify-center">
-      <img class="w-10 h-10 rounded-full" src="https://flowbite.com/docs/images/people/profile-picture-5.jpg" alt="">
-      <div class="font-medium dark:text-white">
+      <img data-popover-target="popover" class="hover:bg-blue-800 w-10 h-10 rounded-full" src="https://flowbite.com/docs/images/people/profile-picture-5.jpg" alt="">
+
+      <div class="font-medium dark:text-white hover:text-blue-700">
           <div>Jese Leos</div>
-          <div class="text-sm text-gray-500 dark:text-gray-400">Joined in August 2014</div>
+          <div class="text-sm text-gray-500 hover:text-blue-700 dark:text-gray-400">Joined in August 2014</div>
       </div>
     </div>
   </div>
-  <button data-popover-target="popover-default" type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Default popover</button>
-
-
-<div data-popover id="popover-default" role="tooltip" class="absolute z-10 invisible inline-block w-64 text-sm text-gray-500 transition-opacity duration-300 bg-white border border-gray-200 rounded-lg shadow-sm opacity-0 dark:text-gray-400 dark:border-gray-600 dark:bg-gray-800">
-    <div class="px-3 py-2 bg-gray-100 border-b border-gray-200 rounded-t-lg dark:border-gray-600 dark:bg-gray-700">
-        <h3 class="font-semibold text-gray-900 dark:text-white">Popover title</h3>
-    </div>
-    <div class="px-3 py-2">
-        <p>And here's some amazing content. It's very engaging. Right?</p>
-    </div>
-    <div data-popper-arrow></div>
-</div>
-
+ 
 </footer>
 
 </body>
