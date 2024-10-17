@@ -106,3 +106,25 @@ h2, h3 {
     font-size: 2.5rem; /* Adjust the size to your preference */
     font-weight: bold;
 }
+
+.content-section h3,
+  .content-section2 h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #333;
+  }
+
+  .content-section p,
+  .content-section2 p {
+    font-size: 1rem;
+    color: #666;
+  }
+
+  #central-section h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #2c3e50;
+  }
