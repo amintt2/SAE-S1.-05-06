@@ -1,0 +1,18 @@
+.card {
+    background-color: #f8fafc; /* Légèrement gris */
+    color: #1a202c; /* Texte plus foncé */
+    padding: 16px;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ajouter une ombre légère */
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Légère élévation lors du hover */
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2); /* Accentuer l'ombre */
+}
+
+.grid {
+    grid-gap: 20px; /* Réduire l'espace entre les cartes */
+    margin-right: 10px; /* Ajouter un petit padding à droite */
+}
