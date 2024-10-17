@@ -153,6 +153,50 @@ h2, h3 {
     margin: 0 auto;
 }
 
+#use-cases {
+    padding: 50px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+
+  .use-case h2 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 40px;
+  }
+
+  .testimonials-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .testimonial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 200px;
+    flex: 1;
+  }
+
+  .testimonial-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+
+  .testimonial-text h3 {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 5px;
+  }
+
+  .testimonial-text p {
+    font-size: 0.9rem;
+    color: #666;
+  }
 
 
   
