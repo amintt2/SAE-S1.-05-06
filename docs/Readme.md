@@ -43,13 +43,13 @@ Ce site comprendra une page d'accueil représentant l'identité de l'entreprise,
 ![Image des contributions](https://i.ibb.co/KGcQB8L/Capture-d-e-cran-2024-10-18-a-17-48-25.png)
 
 ## Constant Suchet
-(https://i.ibb.co/3W6XVbb/Capture-Constant.png)
+- ![Contribution](https://i.ibb.co/3W6XVbb/Capture-Constant.png)
 
 ## Tahar Amin Touzi
-(https://i.ibb.co/QvgVMK8/Capture-tahar.png)
+- ![Contribution](https://i.ibb.co/QvgVMK8/Capture-tahar.png)
 
 ## Zakaria Talali
-(https://i.ibb.co/6RsKdSD/Capture-zakaria.png)
+- ![Contribution](https://i.ibb.co/6RsKdSD/Capture-zakaria.png)
 
 ## Répartition du travail
 
