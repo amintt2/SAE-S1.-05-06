@@ -22,7 +22,7 @@ Ce site comprendra une page d'accueil représentant l'identité de l'entreprise,
 **Auteur : Constant Suchet**
 
 - [w3c Page Accueil](https://validator.w3.org/nu/?doc=https%3A%2F%2Famintt2.github.io%2FSAE-S1.-05-06%2Findex.html)
-- ![Validation W3C Page Accueil](https://i.ibb.co/DgGTRQY/Capture-d-e-cran-2024-10-18-a-17-42-18.png)
+- ![Validation W3C Page Accueil](https://i.ibb.co/M58QC7f/Capture-d-e-cran-2024-10-18-a-17-42-18.png)
 
 ### Page Innovations
 
