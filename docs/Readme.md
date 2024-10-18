@@ -29,7 +29,7 @@ Ce site comprendra une page d'accueil représentant l'identité de l'entreprise,
 **Auteur : Talali Zakaria**
 
 - [w3c Page Services](https://validator.w3.org/nu/?doc=https%3A%2F%2Famintt2.github.io%2FSAE-S1.-05-06%2Fservices.html)
-- ![Validation W3C Page Services](url_de_l_image)
+- ![Validation W3C Page Services](https://i.ibb.co/VWt5myw/Capture-d-e-cran-2024-10-18-a-17-47-08.png)
 
 ### Page Finances
 
