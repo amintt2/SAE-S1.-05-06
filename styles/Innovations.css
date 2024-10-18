@@ -68,18 +68,18 @@ nav a {
     gap: 20px;
 }
 
-.content-section2 {
-    flex-direction: row-reverse;
-}
-
 .content-section img, .content-section2 img {
     width: 50%;
     height: auto;
-    margin: 0 auto;
+    object-fit: cover;
 }
 
 .text-section {
-    max-width: 600px;
+    width: 50%;
+}
+
+.content-section2 {
+    flex-direction: row-reverse;
 }
 
 footer {
