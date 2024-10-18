@@ -40,7 +40,7 @@ Ce site comprendra une page d'accueil représentant l'identité de l'entreprise,
 
 # Contributions au projet
 
-![Image des contributions](url_de_l_image)
+![Image des contributions](https://i.ibb.co/KGcQB8L/Capture-d-e-cran-2024-10-18-a-17-48-25.png)
 
 ## Constant Suchet
 (https://i.ibb.co/3W6XVbb/Capture-Constant.png)
