@@ -17,7 +17,7 @@ Le projet consiste à créer un site web présentant une analyse économique de 
 Ce site comprendra une page d'accueil représentant l'identité de l'entreprise, ainsi que plusieurs pages dédiées à l'historique, aux services et à la situation économique de Ledger. 
 
 ## Développement Site Web et Validation des pages
-<!---
+
 ### Page d'accueil
 
 **Auteur : Constant Suchet**
@@ -49,7 +49,7 @@ Ce site comprendra une page d'accueil représentant l'identité de l'entreprise,
 # Contributions au projet
 
 ![Image des contributions](url_de_l_image)
--->
+
 ## Répartition du travail
 
 ### Planification - Diagramme de GANTT
