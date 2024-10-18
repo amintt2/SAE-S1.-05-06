@@ -6,10 +6,9 @@ https://docs.google.com/spreadsheets/d/1xXEeubZlf2aOFsbFwgONlGK4b9puJBb2LOoYJf2j
 
 ## Membres du groupe :
 
-- **Etudiant 1 (référent du groupe) :** [Jibryl Tebib](mailto:jibryl.tebib@edu.univ-fcomte.fr?subject=SAE_1_05_06)
-- **Etudiant 2 :** [Tahar Amin Touzi](mailto:tahar-amin.touzi@edu.univ-fcomte.fr?subject=SAE_1_05_06)
-- **Etudiant 3 :** [Zakaria Talali](mailto:zakaria.talali@edu.univ-fcomte.fr?subject=SAE_1_05_06)
-- **Etudiant 4 :** [Constant Suchet](mailto:constant.suchet@edu.univ-fcomte.fr?subject=SAE_1_05_06)
+- **Etudiant 1 :** [Tahar Amin Touzi](mailto:tahar-amin.touzi@edu.univ-fcomte.fr?subject=SAE_1_05_06)
+- **Etudiant 2 :** [Zakaria Talali](mailto:zakaria.talali@edu.univ-fcomte.fr?subject=SAE_1_05_06)
+- **Etudiant 3 :** [Constant Suchet](mailto:constant.suchet@edu.univ-fcomte.fr?subject=SAE_1_05_06)
 
 # Présentation du projet
 
@@ -32,13 +31,6 @@ Ce site comprendra une page d'accueil représentant l'identité de l'entreprise,
 - [w3c Page Services](https://validator.w3.org/nu/?doc=https%3A%2F%2Famintt2.github.io%2FSAE-S1.-05-06%2Fservices.html)
 - ![Validation W3C Page Services](url_de_l_image)
 
-### Page Evolution
-
-**Auteur : Jibryl Tebib**
-
-- [w3c Page Histoire](https://validator.w3.org/nu/?doc=https%3A%2F%2Famintt2.github.io%2FSAE-S1.-05-06%2Fhistoire.html)
-- ![Validation W3C Page Histoire](url_de_l_image)
-
 ### Page Finances
 
 **Auteur : Touzi Tahar Amin**
@@ -54,7 +46,6 @@ Ce site comprendra une page d'accueil représentant l'identité de l'entreprise,
 
 ### Planification - Diagramme de GANTT
 
-- Jibryl Tebib
 - Constant Suchet
 
 ### Recherches d'informations
@@ -64,7 +55,6 @@ Ce site comprendra une page d'accueil représentant l'identité de l'entreprise,
 
 ### Rapport économique
 
-- Jibryl Tebib
 - Touzi Tahar Amin
 - Talali Zakaria
 - Constant Suchet
@@ -73,7 +63,6 @@ Ce site comprendra une page d'accueil représentant l'identité de l'entreprise,
 
 - **Constant Suchet** : Page d'accueil, design du site
 - **Touzi Tahar Amin** : Page Finances
-- **Jibryl Tebib** : Page Evolution
 - **Talali Zakaria** : Page innovations
 
 Apache License
