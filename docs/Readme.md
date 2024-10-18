@@ -43,7 +43,7 @@ Ce site comprendra une page d'accueil représentant l'identité de l'entreprise,
 
 **Auteur : Touzi Tahar Amin**
 
-- [w3c Page Economie][(https://validator.w3.org/nu/?doc=https%3A%2F%2Famintt2.github.io%2FSAE-S1.-05-06%2Feconomie.html)]
+- [w3c Page Economie](https://validator.w3.org/nu/?doc=https%3A%2F%2Famintt2.github.io%2FSAE-S1.-05-06%2Feconomie.html)
 - ![Validation W3C Page Economie](url_de_l_image)
 
 # Contributions au projet
