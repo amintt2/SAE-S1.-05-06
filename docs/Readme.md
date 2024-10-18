@@ -43,13 +43,13 @@ Ce site comprendra une page d'accueil représentant l'identité de l'entreprise,
 ![Image des contributions](url_de_l_image)
 
 ## Constant Suchet
-[/ressources/image/Capture-Constant.png]
+(https://i.ibb.co/3W6XVbb/Capture-Constant.png)
 
 ## Tahar Amin Touzi
-(/ressources/image/Capture-tahar.png)
+(https://i.ibb.co/QvgVMK8/Capture-tahar.png)
 
 ## Zakaria Talali
-(/ressources/image/Capture-zakaria.png)
+(https://i.ibb.co/6RsKdSD/Capture-zakaria.png)
 
 ## Répartition du travail
 
