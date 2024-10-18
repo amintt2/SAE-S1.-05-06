@@ -43,7 +43,7 @@ Ce site comprendra une page d'accueil représentant l'identité de l'entreprise,
 ![Image des contributions](url_de_l_image)
 
 ## Constant Suchet
-(/ressources/image/Capture-Constant.png)
+[/ressources/image/Capture-Constant.png]
 
 ## Tahar Amin Touzi
 (/ressources/image/Capture-tahar.png)
