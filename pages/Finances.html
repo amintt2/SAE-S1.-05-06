@@ -6,50 +6,47 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="../styles/Finances.css">
   <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+  <link rel="stylesheet" href="../styles/Acceuil.css">
   <title>Présentation du Site</title>
 </head>
 
 <body class="bg-white dark:bg-slate-900 ">
 
 
-<div class="pb-28">
-<nav class="fixed top-0 z-20 w-full bg-white border-b border-gray-200 dark:bg-gray-900 start-0 dark:border-gray-600">
-  <div class="flex flex-wrap items-center justify-between max-w-screen-xl p-4 mx-auto select-none">
-    <a class="flex items-center space-x-3 rtl:space-x-reverse md:hover:scale-105">
-      <img src="../ressources/logos/main_logo_nobg.png" class="h-14 w-14" alt="Website Logo">
-      <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Presentation Ledger</span>
-    </a>
-    <div class="flex space-x-3 md:order-2 md:space-x-0 rtl:space-x-reverse">
-      <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center justify-center w-10 h-10 p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-sticky" aria-expanded="false">
-        <span class="sr-only">Open main menu</span>
-        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
-          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
-        </svg>
-      </button>
+  <nav class="fixed top-0 z-20 w-full bg-white border-b border-gray-200 dark:bg-gray-900 start-0 dark:border-gray-600">
+    <div class="flex flex-wrap items-center justify-between max-w-screen-xl p-4 mx-auto select-none ">
+      <a class="flex items-center space-x-3 rtl:space-x-reverse md:hover:scale-105 ">
+        <img src="../ressources/logos/main_logo_nobg.png" class="h-14 w-14 " alt="Website Logo">
+        <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white ">Presentation Ledger</span>
+      </a>
+      <div class="flex space-x-3 md:order-2 md:space-x-0 rtl:space-x-reverse">
+        <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center justify-center w-10 h-10 p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-sticky" aria-expanded="false">
+          <span class="sr-only">Open main menu</span>
+          <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+          </svg>
+        </button>
+      </div>
+      <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+        <ul class="flex flex-col p-4 mt-4 font-medium border border-gray-100 rounded-lg md:p-0 bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+          <li class="relative group">
+            <a href="../index.html" style = "padding: 4px" class="block nav-item lg:text-xl xl:text-2xl lg:text-xl xl:text-2xl py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent  md:hover:text-[#3092C9]  md:p-0 md:dark:hover:text-[#3092C9] dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Acceuil</a>
+
+          </li>
+
+          <li class="relative group">
+            <a href="Innovations.html"  style = "padding: 4px" class="block nav-item lg:text-xl xl:text-2xl lg:text-xl xl:text-2xl py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent  md:hover:text-[#3092C9]  md:p-0 md:dark:hover:text-[#3092C9] dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Innovations</a>
+
+          <li class="">
+            <a style = "padding: 3px" class="block lg:text-xl xl:text-2xl py-2 px-3 lg:text-xl xl:text-2xl text-white bg-[#3092C9] rounded md:bg-transparent md:text-[#3092C9] md:p-0 md:dark:text-[#3092C9]" aria-current="page">Finances</a>
+
+          </li>
+
+        </ul>
+      </div>
     </div>
-    <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
-      <ul class="flex flex-col p-4 mt-4 font-medium border border-gray-100 rounded-lg md:p-0 bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
-        <li class="relative group">
-          <a href="../index.html" class="block lg:text-xl xl:text-2xl py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#3092C9] md:p-0 md:dark:hover:text-[#3092C9] dark:text-white dark:hover:bg-gray-700 hover:scale-[1.02] md:hover:scale-[1.08] dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Acceuil</a>
-          <span class="absolute -bottom-1 right-0 w-0 h-0.5 bg-blue-400 rounded-lg md:group-hover:w-full group-hover:transition-all"></span>
-        </li>
-        <li class="relative group">
-          <a href="Innovations.html" class="block lg:text-xl xl:text-2xl py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#3092C9] md:p-0 md:dark:hover:text-[#3092C9] dark:text-white dark:hover:bg-gray-700 hover:scale-[1.02] md:hover:scale-[1.08]dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Innovations</a>
-          <span class="absolute -bottom-1 right-0 w-0 h-0.5 bg-blue-400 rounded-lg md:group-hover:w-full group-hover:transition-all"></span>
-        </li>
-        <li class="">
-          <a class="block lg:text-xl xl:text-2xl py-2 px-3 text-white bg-[#3092C9] rounded md:bg-transparent md:text-[#3092C9] md:p-0 scale-[1.02] md:dark:text-[#3092C9] " aria-current="page">Finances</a>
-          <span class="absolute -bottom-1 right-0 w-0 h-0.5 bg-blue-400 rounded-lg md:group-hover:w-full group-hover:transition-all"></span>
-        </li>
-        <li class="relative group">
-          <a href="Evolution.html" class="block lg:text-xl xl:text-2xl py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#3092C9] md:p-0 md:dark:hover:text-[#3092C9] dark:text-white dark:hover:bg-gray-700 hover:scale-[1.02] md:hover:scale-[1.08] dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Evolution</a>
-          <span class="absolute -bottom-1 right-0 w-0 h-0.5 bg-blue-400 rounded-lg md:group-hover:w-full group-hover:transition-all"></span>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
-</div>
+  </nav>
+
 
 <!-- Titre de la page -->
 <section class="bg-white dark:bg-gray-900">
@@ -291,6 +288,39 @@ const options = {
   </div>
  
 </footer>
+
+  <script> document.querySelectorAll('.nav-item').forEach(item => {
+    item.innerHTML = item.textContent.split('').map(letter =>
+            `<span class="letter">${letter}</span>`
+    ).join('');
+
+    item.addEventListener('mousemove', (e) => {
+      const rect = item.getBoundingClientRect();
+      const x = e.clientX - <rect className="le"></rect>; // x position within the element
+
+      item.querySelectorAll('.letter').forEach((letter, index) => {
+        const letterRect = letter.getBoundingClientRect();
+        const letterX = letterRect.left - rect.left + letterRect.width / 2;
+        const distanceFromCursor = Math.abs(x - letterX);
+        const maxDistance = 100; // maximum distance for the effect
+        const maxYOffset = 10; // maximum Y offset in pixels
+
+        if (distanceFromCursor < maxDistance) {
+          const yOffset = Math.sin((distanceFromCursor / maxDistance) * Math.PI) * maxYOffset;
+          letter.style.transform = `translateY(${-yOffset}px)`;
+        } else {
+          letter.style.transform = 'translateY(0)';
+        }
+      });
+    });
+
+    item.addEventListener('mouseleave', () => {
+      item.querySelectorAll('.letter').forEach(letter => {
+        letter.style.transform = 'translateY(0)';
+      });
+    });
+  });
+  </script>
 
 </body>
 </html>

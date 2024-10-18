@@ -157,6 +157,38 @@
 </footer>
 
 
+<script> document.querySelectorAll('.nav-item').forEach(item => {
+  item.innerHTML = item.textContent.split('').map(letter =>
+          `<span class="letter">${letter}</span>`
+  ).join('');
+
+  item.addEventListener('mousemove', (e) => {
+    const rect = item.getBoundingClientRect();
+    const x = e.clientX - <rect className="le"></rect>; // x position within the element
+
+    item.querySelectorAll('.letter').forEach((letter, index) => {
+      const letterRect = letter.getBoundingClientRect();
+      const letterX = letterRect.left - rect.left + letterRect.width / 2;
+      const distanceFromCursor = Math.abs(x - letterX);
+      const maxDistance = 100; // maximum distance for the effect
+      const maxYOffset = 10; // maximum Y offset in pixels
+
+      if (distanceFromCursor < maxDistance) {
+        const yOffset = Math.sin((distanceFromCursor / maxDistance) * Math.PI) * maxYOffset;
+        letter.style.transform = `translateY(${-yOffset}px)`;
+      } else {
+        letter.style.transform = 'translateY(0)';
+      }
+    });
+  });
+
+  item.addEventListener('mouseleave', () => {
+    item.querySelectorAll('.letter').forEach(letter => {
+      letter.style.transform = 'translateY(0)';
+    });
+  });
+});
+</script>
 
 
 </body>
