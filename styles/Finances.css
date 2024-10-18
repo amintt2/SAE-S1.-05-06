@@ -141,3 +141,6 @@ h1, h2 {
     grid-gap: 20px; /* Réduire l'espace entre les cartes */
     margin-right: 10px; /* Ajouter un petit padding à droite */
 }
+a {
+    font-family: 'Poppins', sans-serif;
+}

@@ -431,3 +431,6 @@ h2, h3 {
     border: 2px solid transparent;
     animation: drawBorder 0.4s linear forwards;
 }
+a {
+    font-family: 'Poppins', sans-serif;
+}
