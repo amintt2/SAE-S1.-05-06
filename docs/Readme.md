@@ -76,7 +76,7 @@ Ce site comprendra une page d'accueil représentant l'identité de l'entreprise,
 
 ### ECO CONCEPTION
 
-[EcoConception](https://i.ibb.co/LZCrBJs/Capture-d-e-cran-2024-10-21-a-12-51-48.png)
+- [EcoConception](https://i.ibb.co/LZCrBJs/Capture-d-e-cran-2024-10-21-a-12-51-48.png)
 
 Apache License
 Version 2.0, January 2004
