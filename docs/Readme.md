@@ -22,25 +22,37 @@ Ce site comprendra une page d'accueil représentant l'identité de l'entreprise,
 **Auteur : Constant Suchet**
 
 - [w3c Page Accueil](https://validator.w3.org/nu/?doc=https%3A%2F%2Famintt2.github.io%2FSAE-S1.-05-06%2Findex.html)
-- ![Validation W3C Page Accueil](url_de_l_image)
+- ![Validation W3C Page Accueil](https://i.ibb.co/M58QC7f/Capture-d-e-cran-2024-10-18-a-17-42-18.png)
+- [EcoConception Page Acceuil](https://i.ibb.co/LZCrBJs/Capture-d-e-cran-2024-10-21-a-12-51-48.png)
 
 ### Page Innovations
 
 **Auteur : Talali Zakaria**
 
 - [w3c Page Services](https://validator.w3.org/nu/?doc=https%3A%2F%2Famintt2.github.io%2FSAE-S1.-05-06%2Fservices.html)
-- ![Validation W3C Page Services](url_de_l_image)
+- ![Validation W3C Page Services](https://i.ibb.co/VWt5myw/Capture-d-e-cran-2024-10-18-a-17-47-08.png)
+- [EcoConception Page Innovations](https://i.ibb.co/0s03B2Q/Capture-d-e-cran-2024-10-21-a-13-32-34.png)
 
 ### Page Finances
 
 **Auteur : Touzi Tahar Amin**
 
-- [w3c Page Economie](https://validator.w3.org/nu/?doc=https%3A%2F%2Famintt2.github.io%2FSAE-S1.-05-06%2Fpages%2FFinances.html)
-- ![Validation W3C Page Economie](https://i.ibb.co/v4v3C6j/Capture-d-e-cran-2024-10-18-a-17-00-39.png)
+- [w3c Page Finances](https://validator.w3.org/nu/?doc=https%3A%2F%2Famintt2.github.io%2FSAE-S1.-05-06%2Fpages%2FFinances.html)
+- ![Validation W3C Page Finances](https://i.ibb.co/v4v3C6j/Capture-d-e-cran-2024-10-18-a-17-00-39.png)
+- ![Eco Conception Page Finances](https://i.ibb.co/Ss1h83S/Capture-d-e-cran-2024-10-21-a-13-35-50.png)
 
 # Contributions au projet
 
-![Image des contributions](url_de_l_image)
+![Image des contributions](https://i.ibb.co/KGcQB8L/Capture-d-e-cran-2024-10-18-a-17-48-25.png)
+
+## Constant Suchet
+- ![Contribution](https://i.ibb.co/3W6XVbb/Capture-Constant.png)
+
+## Tahar Amin Touzi
+- ![Contribution](https://i.ibb.co/QvgVMK8/Capture-tahar.png)
+
+## Zakaria Talali
+- ![Contribution](https://i.ibb.co/6RsKdSD/Capture-zakaria.png)
 
 ## Répartition du travail
 
@@ -64,6 +76,7 @@ Ce site comprendra une page d'accueil représentant l'identité de l'entreprise,
 - **Constant Suchet** : Page d'accueil, design du site
 - **Touzi Tahar Amin** : Page Finances
 - **Talali Zakaria** : Page innovations
+
 
 Apache License
 Version 2.0, January 2004
